@@ -1,6 +1,6 @@
 # SURAtech Front-End Technical Assessment
 
-**Candidate:** ..cdAdarleika Silva
+**Candidate:** Adarleika Silva
 **Role:** Front-End Developer
 
 This repository contains the solutions for the Front-End Technical Assessment, composed of a React SPA (Frontend) and a Strapi v4 API (Backend).
@@ -33,12 +33,12 @@ To run this project locally, you need Node.js installed (v18 or v20 recommended)
 
 ## Exercise 1: AI Assistance in Frontend (React SPA & Testing)
 
-AI Contribution: I used AI to quickly set up the React app using Vite. For the styling, the AI helped me write clean, mobile-first CSS using CSS Grid instead of relying on heavy external libraries. It also guided me on how to structure the fetch call inside a useEffect to connect with the local Strapi API, including how to handle loading and error states. Finally, the AI showed me how to set up and write the unit test using Vitest.
+> **AI Contribution:** I used AI to quickly set up the React app using Vite. For the styling, the AI helped me write clean, mobile-first CSS using CSS Grid instead of relying on heavy external libraries. It also guided me on how to structure the fetch call inside a useEffect to connect with the local Strapi API, including how to handle loading and error states. Finally, the AI showed me how to set up and write the unit test using Vitest.
 
 
 ## Exercise 2: AI Assistance in API Integration
 
-AI Contribution: I asked the AI to help me create a clean service layer (productService.js) to keep the code organized. It helped me write the logic to catch different types of errors (like 4xx, 5xx, or network issues) using response.ok and response.status. 
+> **AI Contribution:** I asked the AI to help me create a clean service layer (productService.js) to keep the code organized. It helped me write the logic to catch different types of errors (like 4xx, 5xx, or network issues) using response.ok and response.status. 
 
 
 ## 🏗️ Exercise 3: Architecture Reasoning
@@ -101,4 +101,4 @@ async function getUser(userId) {
 }
 
 3. *AI Assistance Explanation*
-AI Contribution: The AI helped me change the old .then() syntax to modern async/await, making the code much easier to read. It also added a try/catch block and checked response.ok to handle errors properly if the API fails. Finally, it changed the confusing variable names to clear ones (like userId instead of d) and added comments to document what the function does.
+> **AI Contribution:** The AI helped me change the old .then() syntax to modern async/await, making the code much easier to read. It also added a try/catch block and checked response.ok to handle errors properly if the API fails. Finally, it changed the confusing variable names to clear ones (like userId instead of d) and added comments to document what the function does.
