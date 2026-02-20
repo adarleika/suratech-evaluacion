@@ -74,9 +74,11 @@ Continuous Deployment (CD): When the code is merged into main, it builds the app
  * @param {number|string} userId - The unique identifier of the user.
  * @returns {Promise<Object|null>} The user data object, or null if an error occurs.
  
+ 
+ ```javascript
 async function getUser(userId) {
   if (!userId) {
-    console.error("Error: A valid userId must be provided.");
+    console.error(&quot;Error: A valid userId must be provided.&quot;);
     return null;
   }
 
@@ -90,7 +92,7 @@ async function getUser(userId) {
     }
 
     const userData = await response.json();
-    console.log("User Data retrieved successfully:", userData);
+    console.log(&quot;User Data retrieved successfully:&quot;, userData);
     
     return userData;
 
@@ -99,6 +101,7 @@ async function getUser(userId) {
     return null;
   }
 }
+```
 
 3. *AI Assistance Explanation*
 > **AI Contribution:** The AI helped me change the old .then() syntax to modern async/await, making the code much easier to read. It also added a try/catch block and checked response.ok to handle errors properly if the API fails. Finally, it changed the confusing variable names to clear ones (like userId instead of d) and added comments to document what the function does.
