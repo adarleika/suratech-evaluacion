@@ -105,3 +105,12 @@ async function getUser(userId) {
 
 3. *AI Assistance Explanation*
 > **AI Contribution:** The AI helped me change the old .then() syntax to modern async/await, making the code much easier to read. It also added a try/catch block and checked response.ok to handle errors properly if the API fails. Finally, it changed the confusing variable names to clear ones (like userId instead of d) and added comments to document what the function does.
+
+## 📸 Project Screenshots
+
+<div align="center">
+  <img width="832" height="1688" alt="iPhone-13-PRO-localhost" src="https://github.com/user-attachments/assets/cc006853-01a5-464f-b69e-d5adddfdf279" />
+
+  <img width="832" height="1688" alt="iPhone-13-PRO-localhost2" src="https://github.com/user-attachments/assets/85733f09-24df-420a-9f8e-dc4dac775d3d" />
+
+</div>
