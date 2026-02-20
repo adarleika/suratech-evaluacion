@@ -69,11 +69,11 @@ Continuous Deployment (CD): When the code is merged into main, it builds the app
 "Refactor the following JavaScript fetch function into modern code. Please use async/await, add a try/catch block for errors, use clear variable names, and add JSDoc comments. Original code: function getUser(d) { return fetch("https://jsonplaceholder.typicode.com/users/"+d).then(x=>x.json()).then(j=>console.log(j)) }"
 
 2. *Refactored Code*
-/**
+
  * Fetches user data from the JSONPlaceholder API by user ID.
  * @param {number|string} userId - The unique identifier of the user.
  * @returns {Promise<Object|null>} The user data object, or null if an error occurs.
- **/
+ 
 async function getUser(userId) {
   if (!userId) {
     console.error("Error: A valid userId must be provided.");
