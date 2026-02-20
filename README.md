@@ -57,11 +57,11 @@ Continuous Integration (CI): When a developer makes a Pull Request, it automatic
 Continuous Deployment (CD): When the code is merged into main, it builds the app and uploads the files to a cloud bucket (like AWS S3). The Host application will automatically show the updated module to the users without needing to restart the whole system.
 
 4. *Scalability, Maintainability, and Performance Considerations*
-*Scalability:* Teams can work on their own parts without blocking others. If the Catalog has a lot of traffic, we can scale its backend services without touching the User Profile.
+* *Scalability:* Teams can work on their own parts without blocking others. If the Catalog has a lot of traffic, we can scale its backend services without touching the User Profile.
 
-*Maintainability:* The codebases are smaller and easier to manage. We can update tools in one specific microfrontend without breaking the entire application.
+* *Maintainability:* The codebases are smaller and easier to manage. We can update tools in one specific microfrontend without breaking the entire application.
 
-*Performance:* Sharing libraries makes the app smaller. We can also use lazy loading (React.lazy) so users only download the code for the section they are currently looking at, making the initial load much faster.
+* *Performance:* Sharing libraries makes the app smaller. We can also use lazy loading (React.lazy) so users only download the code for the section they are currently looking at, making the initial load much faster.
 
 ## ♻️ Exercise 4: AI-Assisted Code Refactoring
 
