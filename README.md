@@ -109,8 +109,8 @@ async function getUser(userId) {
 ## 📸 Project Screenshots
 
 <div align="center">
-  <img width="600" height="800" alt="iPhone-13-PRO-localhost" src="https://github.com/user-attachments/assets/cc006853-01a5-464f-b69e-d5adddfdf279" />
+  <img max-width="600" height="800" alt="iPhone-13-PRO-localhost" src="https://github.com/user-attachments/assets/cc006853-01a5-464f-b69e-d5adddfdf279" />
 
-  <img width="600" height="800" alt="iPhone-13-PRO-localhost2" src="https://github.com/user-attachments/assets/85733f09-24df-420a-9f8e-dc4dac775d3d" />
+  <img max-width="600" height="800" alt="iPhone-13-PRO-localhost2" src="https://github.com/user-attachments/assets/85733f09-24df-420a-9f8e-dc4dac775d3d" />
 
 </div>
