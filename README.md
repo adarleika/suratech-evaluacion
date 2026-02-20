@@ -73,7 +73,7 @@ Continuous Deployment (CD): When the code is merged into main, it builds the app
  * Fetches user data from the JSONPlaceholder API by user ID.
  * @param {number|string} userId - The unique identifier of the user.
  * @returns {Promise<Object|null>} The user data object, or null if an error occurs.
- */
+ **/
 async function getUser(userId) {
   if (!userId) {
     console.error("Error: A valid userId must be provided.");
